@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+  }
+
+
+  .info{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .car{
+    padding: 30px 45px;
+  }
+
+  .sed{
+     background-color: hsl(31, 77%, 52%);
+  }
+
+  .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 50px;
+  }
+
+  .lux{
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  
+
+  .car-h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    font-style: normal;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    padding: 30px 0px;
+  }
+
+  .car-para{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    padding: 10px 0px;
+  }
+
+  .car-btn1, .car-btn2, .car-btn3{
+     font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+     background-color: hsl(0, 0%, 95%);
+     border: 1px solid hsl(0, 0%, 95%);
+    font-family: "Lexend Deca";
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 80%;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  .car-btn1:hover, .car-btn2:hover, .car-btn3:hover{
+    color:  hsl(0, 0%, 95%);
+    background-color: transparent;
+  }
+
+  .car-btn1{
+    color: hsl(31, 77%, 52%);
+  }
+
+  .car-btn2{
+    color: hsl(184, 100%, 22%);
+  }
+
+  .car-btn3{
+    color: hsl(179, 100%, 13%);
+  }
+
+  .foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color:hsl(179, 100%, 13%);
+    margin: 50px 20px;
+  }
+
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+  }
+
+  @media screen and (max-width: 950px) {
+    .info{
+        width: 100%;
+        padding: 20px;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .info{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+  }
